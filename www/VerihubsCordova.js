@@ -10,6 +10,7 @@ VerihubsCordova.prototype.initClass = function (
 VerihubsCordova.prototype.verifyLiveness = function (
   instructions_count,
   timeout,
+  string_parameters,
   successCallback,
   errorCallback
 ) {
@@ -18,7 +19,7 @@ VerihubsCordova.prototype.verifyLiveness = function (
     errorCallback,
     "VerihubsWrapper",
     "verifyLiveness",
-    [instructions_count, timeout]
+    [instructions_count, timeout, string_parameters]
   );
 };
 
@@ -33,7 +34,7 @@ VerihubsCordova.install = function () {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.verihubs = new VerihubsCordova();
-  return window.plugins.verihubs;
+  window.plugins.verihubssdk = new VerihubsCordova();
+  return window.plugins.verihubssdk;
 };
 cordova.addConstructor(VerihubsCordova.install);

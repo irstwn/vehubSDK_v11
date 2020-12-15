@@ -28,7 +28,7 @@
 
 -(id) initWithController: (UIViewController<VerihubsCameraDelegate>*)c andImageView: (UIImageView*)iv;
 -(void)setInstruction: (int)total_instruction instruction:(int*) instruction;
--(void)start;
+-(void)start: (int)delay;
 -(void)stop;
 #ifdef __cplusplus
 -(UIImage*)UIImageFromMat2: (cv::Mat)image;

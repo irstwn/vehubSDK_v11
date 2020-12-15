@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/VerihubsCamera.h</key>
 		<data>
-		ShcsKBeUYPoXm0S9hXS2cPgEWjo=
+		8O21Sf++qEMp/fb4LvNqtKNw8BY=
 		</data>
 		<key>Headers/verihubs-Swift.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YKZVlKnZUMcDA4uzfrLoTPtC9pg=
+		ENmjXggNIPM/pcTG4WOC1mpmMN8=
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YKZVlKnZUMcDA4uzfrLoTPtC9pg=
+		ENmjXggNIPM/pcTG4WOC1mpmMN8=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FDnRh/gK1fDP5QMGTVExEXAvvBw=
+		0/KQqMJBx6hQHtdJtCjcK1veK7g=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,27 +50,27 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		FDnRh/gK1fDP5QMGTVExEXAvvBw=
+		0/KQqMJBx6hQHtdJtCjcK1veK7g=
 		</data>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
 		<data>
 		6EoiaFlNXlP7dRmiLU13cHlZdAc=
 		</data>
+		<key>VerihubsMain.storyboardc/Ovg-zD-gYa-view-74n-tQ-L0s.nib</key>
+		<data>
+		R/n6+xfXvu6Id/TSCWGdCJKi0wk=
+		</data>
 		<key>VerihubsMain.storyboardc/VerifyLivenessScreen.nib</key>
 		<data>
-		9rq8jdqTnNYsT1LGmghQp2Rb1/4=
+		zjIp4cv+HO6HVE2p8AmvTwvX7DQ=
 		</data>
-		<key>VerihubsMain.storyboardc/dkt-8z-oEs-view-mjV-BF-L5J.nib</key>
+		<key>res/demofas.bin</key>
 		<data>
-		YCpDYocg5tLwkboTRB0A3l+U4kw=
+		OnQ5HhlSq0QkO8zQR6hUGbr+TLg=
 		</data>
-		<key>res/fas.bin</key>
+		<key>res/demofas.param</key>
 		<data>
-		wOt5pHwe8BMa57DycmmiAm2rbts=
-		</data>
-		<key>res/fas.param</key>
-		<data>
-		2u+aVyhwgKsgm9yEc7qZDqO6D4I=
+		CKf/RbHn57eJ1hY2wKkMgRQMbcE=
 		</data>
 		<key>res/fd.bin</key>
 		<data>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3vA5/F3WV2ki4jebx2i/OT6wyedAd/svwWdVAPNEdfY=
+			KgVNDGMh3ZfMA/GehsTv2Q0/Qxvjwq+wmiHrPthjJr8=
 			</data>
 		</dict>
 		<key>Headers/verihubs-Swift.h</key>
@@ -134,14 +134,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODbIdVJGgZE2g3c4Cq4OAI7SvMmkFkEI5KjWqkpZGEE=
+			DkwOwj2l1YL2QUtiwrVMHTyMkBBYzHk0Xf0+17SJQVs=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODbIdVJGgZE2g3c4Cq4OAI7SvMmkFkEI5KjWqkpZGEE=
+			DkwOwj2l1YL2QUtiwrVMHTyMkBBYzHk0Xf0+17SJQVs=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGCtCpOibJLk0KV8B496weHPm8jwswpp5KxsRE4MgYk=
+			ePjeElX12xlSK1JFns+SK4r0nE5TPSCogMrWV5Ls3ZM=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGCtCpOibJLk0KV8B496weHPm8jwswpp5KxsRE4MgYk=
+			ePjeElX12xlSK1JFns+SK4r0nE5TPSCogMrWV5Ls3ZM=
 			</data>
 		</dict>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
@@ -179,32 +179,32 @@
 			9y3a+meneXWUYEgyHqpmicHq94yr81ow4V4za8PiB7Y=
 			</data>
 		</dict>
+		<key>VerihubsMain.storyboardc/Ovg-zD-gYa-view-74n-tQ-L0s.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O9uJ1x6G7zd1nCCR3nnVEeNp8h8L3KV+5rLRped794k=
+			</data>
+		</dict>
 		<key>VerihubsMain.storyboardc/VerifyLivenessScreen.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8XzdwkSIHGHxTPEweP8CPDvaqLk5EH8wtAAiBI3qku8=
+			AB5Jmra5jkiZ/F/uPPfKsQptdrmc53DgEjP3x5bL7jE=
 			</data>
 		</dict>
-		<key>VerihubsMain.storyboardc/dkt-8z-oEs-view-mjV-BF-L5J.nib</key>
+		<key>res/demofas.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5u75s9+DgdbJXy6K+w+WGOrhOfKfodSTtDupiQKs11g=
+			5dk3EH1Hrn2d66D/lVzm6meE3/AEF5+sjmaRX+gbdYA=
 			</data>
 		</dict>
-		<key>res/fas.bin</key>
+		<key>res/demofas.param</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j3YMVKKGeK5jHio2fz4Jmsez6rSpziMh+A1Ty3QnHWU=
-			</data>
-		</dict>
-		<key>res/fas.param</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DAs+UfqOa+Ob4k9DgSBwIWgxA/3AJTtlr7a7rMXYQr0=
+			PNhVYH3sz6cQ/lzTQUuZItOOaUnL4AXLkKKIczWbOPg=
 			</data>
 		</dict>
 		<key>res/fd.bin</key>
