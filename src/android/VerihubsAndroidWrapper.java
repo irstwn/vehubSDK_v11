@@ -9,6 +9,7 @@ import org.json.JSONObject;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.widget.Toast;
 import com.verihubs.msdk_bca.Verihubs;
 import static com.verihubs.msdk_bca.VerihubsType.CREATEUSER_CODE;
 import static com.verihubs.msdk_bca.VerihubsType.LIVENESS_CODE;
@@ -99,7 +100,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             this.callback.sendPluginResult(pluginResult);
             try{
                 JSONObject jsonResult = new JSONObject();
-                jsonResult.put("version", "1.2.1");    
+                jsonResult.put("version", "1.2.2");    
                 this.callback.success(jsonResult);
             }catch(JSONException e){
                 this.callback.error("Error encountered: " + e.getMessage());
@@ -131,7 +132,11 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                                 jsonResult.put("base64String_" + i, encoded);
                                 String instruction = data.getStringExtra("instruction" + i);
                                 jsonResult.put("instruction" + i, instruction);
+                                int encoded_length = sp.getInt("length" + (i-1), 0);
                                 jsonResult.put("base64StringLength_" + i, encoded.length());
+                                if(encoded.length() != encoded_length){
+                                    Toast.makeText(cordova.getActivity(), "Length not same", Toast.LENGTH_SHORT).show();
+                                }
                         }
                         obj.clean(total_instruction);
                         this.callback.success(jsonResult);
