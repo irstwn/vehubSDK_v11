@@ -36,43 +36,11 @@ public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
 
     self.instruction_count = command.argument(at: 0) as! Int?
     self.timeout = command.argument(at: 1) as! Int?
-    self.string_parameters = command.argument(at: 2) as! [AnyHashable : Any]
+    self.string_parameters = command.argument(at: 2) as? [AnyHashable : Any]
     self.commandId = command.callbackId
-    // for i in 0...8{
-    //     switch i{
-    //       case 0:
-    //         real_string_parameters["see_left"] = string_parameters[i]
-    //         break;
-    //       case 1:
-    //         real_string_parameters["see_right"] = string_parameters[i]
-    //         break;
-    //       case 2:
-    //         real_string_parameters["see_straight"] = string_parameters[i]
-    //         break;
-    //       case 3:
-    //         real_string_parameters["see_above"] = string_parameters[i]
-    //         break;
-    //       case 4:
-    //         real_string_parameters["see_below"] = string_parameters[i]
-    //         break;
-    //       case 5:
-    //         real_string_parameters["tilt_left"] = string_parameters[i]
-    //         break;
-    //       case 6:
-    //         real_string_parameters["tilt_right"] = string_parameters[i]
-    //         break;
-    //       case 7:
-    //         real_string_parameters["open_mouth"] = string_parameters[i]
-    //         break;
-    //       case 8:
-    //         real_string_parameters["close_eyes"] = string_parameters[i]
-    //         break;
-    //       default:
-    //         break;
-    //     }
-    // }
-    print("asd")
-    print(string_parameters)
+    if(string_parameters = nil){
+      string_parameters = ["see_straight":"See straight","close_eyes":"Close both your eyes","open_mouth":"Open your mouth","tilt_right":"Tilt to the right", "tilt_left":"Tilt to the left","see_below":"See below", "see_above":"See above", "see_right":"See your right", "see_left":"See your left"]
+    }
     verisdk.verifyLiveness(viewController:self.viewController, delegate:self, instruction_count: self.instruction_count, timeout: self.timeout, string_parameters: self.string_parameters)
 
   }

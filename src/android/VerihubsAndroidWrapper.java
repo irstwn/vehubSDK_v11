@@ -78,6 +78,17 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                     if(!string_parameters.getString("see_right").equals("")){
                         stringObj.setString_instruction_head_look_right(string_parameters.getString("see_right"));
                     }
+                    ["see_straight":"See straight","close_eyes":"Close both your eyes","open_mouth":"Open your mouth","tilt_right":"Tilt to the right", "tilt_left":"Tilt to the left","see_below":"See below", "see_above":"See above", "see_right":"See your right", "see_left":"See your left"]
+                }else{
+                    stringObj.setString_instruction_head_look_straight("See straight");
+                    stringObj.setString_instruction_both_eye_close("Close both your eyes");
+                    stringObj.setString_instruction_head_tilt_right("Tilt to the right");
+                    stringObj.setString_instruction_head_tilt_left("Tilt to the left");
+                    stringObj.setString_instruction_head_look_down("See below");
+                    stringObj.setString_instruction_head_look_up("See above");
+                    stringObj.setString_instruction_head_look_right("See your right");
+                    stringObj.setString_instruction_head_look_left("See your left");
+                    stringObj.setString_instruction_mouth_open("Open your mouth");
                 }
             }
             catch(JSONException e){
