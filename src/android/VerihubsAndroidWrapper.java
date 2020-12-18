@@ -25,8 +25,6 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
     private static int MODE_PRIVATE = 0;
     private static CallbackContext callback;
     private Verihubs obj;
-    private JSONObject string_parameters;
-
     @Override
     public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) {
         
@@ -49,51 +47,15 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             try{
                 instructions_count = args.getInt(0);
                 timeout = args.getInt(1);
-                try{
-                    string_parameters = args.getJSONObject(2);
-                }
-                catch(Exception e){
-                    string_parameters = null;
-                }
-                if(string_parameters != null){
-                    if(!string_parameters.getString("see_straight").equals("")){
-                        stringObj.setString_instruction_head_look_straight(string_parameters.getString("see_straight"));
-                    }
-                    if(!string_parameters.getString("close_eyes").equals("")){
-                        stringObj.setString_instruction_both_eye_close(string_parameters.getString("close_eyes"));
-                    }
-                    if(!string_parameters.getString("tilt_right").equals("")){
-                        stringObj.setString_instruction_head_tilt_right(string_parameters.getString("tilt_right"));
-                    }
-                    if(!string_parameters.getString("tilt_left").equals("")){
-                        stringObj.setString_instruction_head_tilt_left(string_parameters.getString("tilt_left"));
-                    }
-                    if(!string_parameters.getString("open_mouth").equals("")){
-                        stringObj.setString_instruction_mouth_open(string_parameters.getString("open_mouth"));
-                    }
-                    if(!string_parameters.getString("see_left").equals("")){
-                        stringObj.setString_instruction_head_look_left(string_parameters.getString("see_left"));
-                    }
-                    if(!string_parameters.getString("see_below").equals("")){
-                        stringObj.setString_instruction_head_look_down(string_parameters.getString("see_below"));
-                    }
-                    if(!string_parameters.getString("see_above").equals("")){
-                        stringObj.setString_instruction_head_look_up(string_parameters.getString("see_above"));
-                    }
-                    if(!string_parameters.getString("see_right").equals("")){
-                        stringObj.setString_instruction_head_look_right(string_parameters.getString("see_right"));
-                    }
-                }else{
-                    stringObj.setString_instruction_head_look_straight("See straight");
-                    stringObj.setString_instruction_both_eye_close("Close both your eyes");
-                    stringObj.setString_instruction_head_tilt_right("Tilt to the right");
-                    stringObj.setString_instruction_head_tilt_left("Tilt to the left");
-                    stringObj.setString_instruction_head_look_down("See below");
-                    stringObj.setString_instruction_head_look_up("See above");
-                    stringObj.setString_instruction_head_look_right("See your right");
-                    stringObj.setString_instruction_head_look_left("See your left");
-                    stringObj.setString_instruction_mouth_open("Open your mouth");
-                }
+                stringObj.setString_instruction_head_look_straight("Lihat depan");
+                stringObj.setString_instruction_both_eye_close("Close both your eyes");
+                stringObj.setString_instruction_head_tilt_right("Tilt to the right");
+                stringObj.setString_instruction_head_tilt_left("Tilt to the left");
+                stringObj.setString_instruction_head_look_down("See below");
+                stringObj.setString_instruction_head_look_up("See above");
+                stringObj.setString_instruction_head_look_right("See your right");
+                stringObj.setString_instruction_head_look_left("See your left");
+                stringObj.setString_instruction_mouth_open("Open your mouth");
             }
             catch(JSONException e){
                 callbackContext.error("Error encountered: " + e.getMessage());
