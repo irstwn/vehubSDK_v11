@@ -36,10 +36,12 @@ public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
 
     self.instruction_count = command.argument(at: 0) as! Int?
     self.timeout = command.argument(at: 1) as! Int?
-    self.string_parameters = command.argument(at: 2) as? [AnyHashable : Any]
+    var temp_string_parameters = command.argument(at: 2) as? [AnyHashable : Any]
     self.commandId = command.callbackId
-    if(string_parameters = nil){
+    if(temp_string_parameters == nil){
       string_parameters = ["see_straight":"See straight","close_eyes":"Close both your eyes","open_mouth":"Open your mouth","tilt_right":"Tilt to the right", "tilt_left":"Tilt to the left","see_below":"See below", "see_above":"See above", "see_right":"See your right", "see_left":"See your left"]
+    }else{
+      string_parameters = temp_string_parameters
     }
     verisdk.verifyLiveness(viewController:self.viewController, delegate:self, instruction_count: self.instruction_count, timeout: self.timeout, string_parameters: self.string_parameters)
 
