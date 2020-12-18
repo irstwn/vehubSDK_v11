@@ -49,7 +49,12 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             try{
                 instructions_count = args.getInt(0);
                 timeout = args.getInt(1);
-                string_parameters = args.getJSONObject(2);
+                try{
+                    string_parameters = args.getJSONObject(2);
+                }
+                catch(Exception e){
+                    string_parameters = null;
+                }
                 if(string_parameters != null){
                     if(!string_parameters.getString("see_straight").equals("")){
                         stringObj.setString_instruction_head_look_straight(string_parameters.getString("see_straight"));
