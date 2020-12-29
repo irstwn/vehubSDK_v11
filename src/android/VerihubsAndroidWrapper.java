@@ -43,6 +43,8 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
         if(action.equals("verifyLiveness")){
             int instructions_count;
             int timeout;
+            int[] custom_instructions;
+            boolean[] attributes_check;
             VerihubsString stringObj = new VerihubsString();
             try{
                 instructions_count = args.getInt(0);
@@ -56,6 +58,8 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                 stringObj.setString_instruction_head_look_right("See your right");
                 stringObj.setString_instruction_head_look_left("See your left");
                 stringObj.setString_instruction_mouth_open("Open your mouth");
+                custom_instructions = new int[]{0, 1};
+                attributes_check = new boolean[]{true, true};
             }
             catch(JSONException e){
                 callbackContext.error("Error encountered: " + e.getMessage());
@@ -63,7 +67,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             }
 
             cordova.setActivityResultCallback(this);
-            obj.verifyLiveness(instructions_count, timeout, stringObj);
+            obj.verifyLiveness(instructions_count, custom_instructions, attributes_check, timeout, stringObj);
 
             PluginResult pluginResult = new PluginResult(PluginResult.Status.NO_RESULT);
             pluginResult.setKeepCallback(true);
@@ -77,7 +81,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             this.callback.sendPluginResult(pluginResult);
             try{
                 JSONObject jsonResult = new JSONObject();
-                jsonResult.put("version", "1.2.2");    
+                jsonResult.put("version", "1.2.3");    
                 this.callback.success(jsonResult);
             }catch(JSONException e){
                 this.callback.error("Error encountered: " + e.getMessage());
