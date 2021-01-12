@@ -59,7 +59,7 @@ public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
 
     var response_result: [AnyHashable : Any] = [:]
 
-    let temp2 = ["version": "1.2.0"] as [AnyHashable : Any]
+    let temp2 = ["version": "1.3.1"] as [AnyHashable : Any]
 
     response_result = Array(response_result.keys).reduce(temp2) { (dict, key) -> [AnyHashable:Any] in
         var dict = dict

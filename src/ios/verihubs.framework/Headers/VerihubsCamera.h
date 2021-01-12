@@ -22,6 +22,7 @@
 - (void) changeInstruction: (int) current_instruction instr: (int)instr realPerson: (int)realPerson;
 - (void) swiftSaveImg:(UIImage*) image current_instruction:(int)current_instruction;
 - (void) attributesDetected:(int) aStatus;
+- (void) animation: (int) counter;
 @end
 
 // Public interface for camera. ViewController only needs to init, start and stop.
