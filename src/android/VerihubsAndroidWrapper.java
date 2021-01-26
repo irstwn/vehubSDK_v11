@@ -45,10 +45,22 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             int timeout;
             int[] custom_instructions;
             boolean[] attributes_check;
+            JSONArray json_custom_instructions;
+            JSONArray json_attributes_check;
             VerihubsString stringObj = new VerihubsString();
             try{
                 instructions_count = args.getInt(0);
                 timeout = args.getInt(1);
+                json_custom_instructions = args.getJSONArray(2);
+                json_attributes_check = args.getJSONArray(3);
+                custom_instructions = new int[json_custom_instructions.length()];
+                for(int i = 0; i < json_custom_instructions.length(); ++i){
+                    custom_instructions[i] = json_custom_instructions.getInt(i);
+                }
+                attributes_check = new boolean[json_attributes_check.length()];
+                for(int i = 0; i < json_attributes_check.length(); ++i){
+                    attributes_check[i] = json_attributes_check.getBoolean(i);
+                }
                 stringObj.setString_instruction_head_look_straight("Lihat depan");
                 stringObj.setString_instruction_both_eye_close("Close both your eyes");
                 stringObj.setString_instruction_head_tilt_right("Tilt to the right");
@@ -58,8 +70,9 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                 stringObj.setString_instruction_head_look_right("See your right");
                 stringObj.setString_instruction_head_look_left("See your left");
                 stringObj.setString_instruction_mouth_open("Open your mouth");
-                custom_instructions = new int[]{0, 1};
-                attributes_check = new boolean[]{true, true};
+                stringObj.setString_instruction_remove_mask("Remove masker");
+                stringObj.setString_instruction_remove_sunglasses("Remove sunglasses");
+                stringObj.setString_follow_instruction("Follow the instruction");
             }
             catch(JSONException e){
                 callbackContext.error("Error encountered: " + e.getMessage());
@@ -81,7 +94,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             this.callback.sendPluginResult(pluginResult);
             try{
                 JSONObject jsonResult = new JSONObject();
-                jsonResult.put("version", "1.3.1");    
+                jsonResult.put("version", "1.3.3");    
                 this.callback.success(jsonResult);
             }catch(JSONException e){
                 this.callback.error("Error encountered: " + e.getMessage());

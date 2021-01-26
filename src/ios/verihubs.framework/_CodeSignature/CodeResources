@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		f/NrBd3J5xs/xuTEHljirEwF/3Q=
+		A4mE7t/TGUR5kZnpOwyal13oXzY=
 		</data>
 		<key>Headers/OpenCVWrapper.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/verihubs-Swift.h</key>
 		<data>
-		AIHH1vFja8Wl6ZcFXKDcKVUUg+E=
+		UzG3b2cXwwU+zP3y4sYdEdMXNpk=
 		</data>
 		<key>Headers/verihubs.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Sm2TpsqFloyucLcsbAcQoAfxwMs=
+		YIz5hkxI4VQjmLKgsUBhNqYTaQc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,27 +34,27 @@
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		MTYjmvgG+9iVQutg1RQc6InLOd4=
+		WN3BHFLj/XfRpTj2C6+seI10WtQ=
 		</data>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		MTYjmvgG+9iVQutg1RQc6InLOd4=
+		WN3BHFLj/XfRpTj2C6+seI10WtQ=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		p9xu1cyHUpNGB31Ex8PfKxROGio=
+		MMke/KxYrnzGzDVSAV9T9NzO5qQ=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IKQwt7eYQ3ZuPubvTGniAAktMeQ=
+		ZmIg9K3tC1warrJdxwzlMoqqVEE=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		p9xu1cyHUpNGB31Ex8PfKxROGio=
+		MMke/KxYrnzGzDVSAV9T9NzO5qQ=
 		</data>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		IKQwt7eYQ3ZuPubvTGniAAktMeQ=
+		ZmIg9K3tC1warrJdxwzlMoqqVEE=
 		</data>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
 		<data>
@@ -62,11 +62,19 @@
 		</data>
 		<key>VerihubsMain.storyboardc/Ovg-zD-gYa-view-74n-tQ-L0s.nib</key>
 		<data>
-		gyhFlo4Ne3MbXCbESk6zJCYcKio=
+		VgJmJsMo6zDMkXpl0SJ2Ue1P9GU=
 		</data>
 		<key>VerihubsMain.storyboardc/VerifyLivenessScreen.nib</key>
 		<data>
-		oVe7fV/S7SbF/j3oP2IhGXcMbB8=
+		MSYroV5bqtCxP+2torrH934Oibo=
+		</data>
+		<key>res/demofas-sim.bin</key>
+		<data>
+		7S6UNFaQMGhWZY0SNCZtZ+Dwlgs=
+		</data>
+		<key>res/demofas-sim.param</key>
+		<data>
+		jBbFTuezEoXN5fxrpbgznH7Y4gw=
 		</data>
 		<key>res/demofas.bin</key>
 		<data>
@@ -82,7 +90,7 @@
 		</data>
 		<key>res/fac.param</key>
 		<data>
-		EB8ptIElsNo8OXckj96cupXJiGY=
+		LaWQmBRw3Z9Gj6Y7XX/Ze+VfrwQ=
 		</data>
 		<key>res/fd.bin</key>
 		<data>
@@ -90,7 +98,7 @@
 		</data>
 		<key>res/fd.param</key>
 		<data>
-		RjHDydOObVuDHBPjr5/sM89apIA=
+		Ey67pMZrimrQMoiiZfDIu0sPGEA=
 		</data>
 		<key>res/fl.bin</key>
 		<data>
@@ -98,11 +106,7 @@
 		</data>
 		<key>res/fl.param</key>
 		<data>
-		jC4ceph6Bc1V4KGpYtDzeMYKHSY=
-		</data>
-		<key>verihubs.png</key>
-		<data>
-		LXXyRbX0BgjlptuZ7Dt90yJlgO4=
+		dayxBmDacMCTriI9ZsLWS1g577w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -111,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKWIlEAH4mEUIeFscXxUjMhP/cn9pd/8hbRJ0oCKsQI=
+			+vWmPBC1fZIejo/F38rbzwKIJig7y1UCZLTBc3kLOOc=
 			</data>
 		</dict>
 		<key>Headers/OpenCVWrapper.h</key>
@@ -132,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rl5x2czazzNPhKp07ssEfUKipn8MfJAS95agX+fri8Q=
+			8fhhfFXNSKhTX2Avi3I+Sv3Qu3IlrSE+xvQxgDhkJVA=
 			</data>
 		</dict>
 		<key>Headers/verihubs.h</key>
@@ -153,42 +157,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WsWB/3e8M9R6rWe8d5u0iilTjJY5I/bZKfaHD6gTOfo=
+			L1UsLJOkRR71vsbL9i2jLrJFsTla4P0+CqBWi8gs4AE=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WsWB/3e8M9R6rWe8d5u0iilTjJY5I/bZKfaHD6gTOfo=
+			L1UsLJOkRR71vsbL9i2jLrJFsTla4P0+CqBWi8gs4AE=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QH7QCrhVAd2Z3LPSsCepKkCfHkwO5OqFnHglII5hL+I=
+			qsZbWc3pnexp69AKURGjE4GSbiXAsFCJYC0aS9lNEeE=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tzDtbNGxG+2bbOU7NDUaQESR//l8pShE/A1ic0skiBA=
+			wdSc6e6t2ruRP0r1VBSCQonFqcmkSy2jlq1aSBmGOZ4=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QH7QCrhVAd2Z3LPSsCepKkCfHkwO5OqFnHglII5hL+I=
+			qsZbWc3pnexp69AKURGjE4GSbiXAsFCJYC0aS9lNEeE=
 			</data>
 		</dict>
 		<key>Modules/verihubs.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tzDtbNGxG+2bbOU7NDUaQESR//l8pShE/A1ic0skiBA=
+			wdSc6e6t2ruRP0r1VBSCQonFqcmkSy2jlq1aSBmGOZ4=
 			</data>
 		</dict>
 		<key>VerihubsMain.storyboardc/Info.plist</key>
@@ -202,14 +206,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2mwq7xzqpYbr7uTxpwoSb+4Pzj4cgGzAfb9rHV6YKc=
+			noK8ZxvRjGewZJ3TrAgPX4Z/6sDXMkMSByCcTFi6aIU=
 			</data>
 		</dict>
 		<key>VerihubsMain.storyboardc/VerifyLivenessScreen.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAoUcN8fE88jOJTrmrHaJA4BRCCvMKMly23n14hYyQE=
+			npAAguhL9kUqKJxPMeMD9hy9OWR66+RdnGLou6hhZic=
+			</data>
+		</dict>
+		<key>res/demofas-sim.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VXfsZpJIPEOh0DTZxw+QBr991fyfZ0a2Mn8XsJR0/P0=
+			</data>
+		</dict>
+		<key>res/demofas-sim.param</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z4bQHzGXlwhfZggEjikhugBk0t0f2K1IECKjXJZiWdY=
 			</data>
 		</dict>
 		<key>res/demofas.bin</key>
@@ -237,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fS1Z1oM2KtDABiYCP1/1iPovvQkygewc23C+e7L3TvQ=
+			Nt6zPfE5ENuqe5bJaOtXmzkF+Ttr6S401BeuVDnynWM=
 			</data>
 		</dict>
 		<key>res/fd.bin</key>
@@ -251,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGglq4Llyw62nLOoi51rBlgj9Oo3B+gdcv1QwLHl8KI=
+			Coxq+0dGCOPjgRMW1BszhBY+wOm4jLNxWA5G22sAZwo=
 			</data>
 		</dict>
 		<key>res/fl.bin</key>
@@ -265,14 +283,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			21BLP8GROlZZ+BoEfjwrIHBldhHHi8yqER/DDkSsteI=
-			</data>
-		</dict>
-		<key>verihubs.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nX4wC0tb+30klOejJTmycAoFZ4KlveL5F9xSgXw7Y5I=
+			4A6qSigBal4j9xfoW+9bOj194hwAVoKC3t1850mBn54=
 			</data>
 		</dict>
 	</dict>

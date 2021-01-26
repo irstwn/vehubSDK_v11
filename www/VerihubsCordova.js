@@ -10,6 +10,8 @@ VerihubsCordova.prototype.initClass = function (
 VerihubsCordova.prototype.verifyLiveness = function (
   instructions_count,
   timeout,
+  custom_instructions,
+  attributes_check,
   successCallback,
   errorCallback
 ) {
@@ -18,7 +20,7 @@ VerihubsCordova.prototype.verifyLiveness = function (
     errorCallback,
     "VerihubsWrapper",
     "verifyLiveness",
-    [instructions_count, timeout]
+    [instructions_count, timeout, custom_instructions, attributes_check]
   );
 };
 
