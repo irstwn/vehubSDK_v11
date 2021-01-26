@@ -39,9 +39,14 @@ function initError(error) {
     alert(error);
 }
 
+custom_instructions = [5, 6]
+check_attributes = [true, true]
+
 window.plugins.verihubs.verifyLiveness(
       instruction_count,
       timeout,
+      custom_instructions,
+      check_attributes,
       livedetSuccess,
       livedetError
     );
