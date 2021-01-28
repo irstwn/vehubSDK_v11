@@ -108,6 +108,9 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if(data == null){
+            this.callback.error("Null error detected");
+        }else
 
         if (requestCode == LIVENESS_CODE)
         {
