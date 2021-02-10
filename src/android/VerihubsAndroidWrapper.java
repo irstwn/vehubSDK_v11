@@ -11,7 +11,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.widget.Toast;
 import com.verihubs.msdk_bca.Verihubs;
-import static com.verihubs.msdk_bca.VerihubsType.CREATEUSER_CODE;
 import static com.verihubs.msdk_bca.VerihubsType.LIVENESS_CODE;
 import com.verihubs.msdk_bca.VerihubsString;
 
