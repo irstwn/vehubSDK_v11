@@ -60,18 +60,18 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                 for(int i = 0; i < json_attributes_check.length(); ++i){
                     attributes_check[i] = json_attributes_check.getBoolean(i);
                 }
-                stringObj.setString_instruction_head_look_straight("Lihat depan");
-                stringObj.setString_instruction_both_eye_close("Close both your eyes");
-                stringObj.setString_instruction_head_tilt_right("Tilt to the right");
-                stringObj.setString_instruction_head_tilt_left("Tilt to the left");
-                stringObj.setString_instruction_head_look_down("See below");
-                stringObj.setString_instruction_head_look_up("See above");
-                stringObj.setString_instruction_head_look_right("See your right");
-                stringObj.setString_instruction_head_look_left("See your left");
-                stringObj.setString_instruction_mouth_open("Open your mouth");
-                stringObj.setString_instruction_remove_mask("Remove masker");
-                stringObj.setString_instruction_remove_sunglasses("Remove sunglasses");
-                stringObj.setString_follow_instruction("Follow the instruction");
+                stringObj.setString_instruction_head_look_straight("Arahkan wajah ke depan");
+                stringObj.setString_instruction_both_eye_close("Tutup mata selama 2 detik");
+                stringObj.setString_instruction_head_tilt_right("Miringkan kepala ke kanan");
+                stringObj.setString_instruction_head_tilt_left("Miringkan kepala ke kiri");
+                stringObj.setString_instruction_head_look_down("Tundukkan kepala ke bawah");
+                stringObj.setString_instruction_head_look_up("Arahkan wajah ke atas");
+                stringObj.setString_instruction_head_look_right("Tengok ke kanan");
+                stringObj.setString_instruction_head_look_left("Tengok ke kiri");
+                stringObj.setString_instruction_mouth_open("Buka mulut");
+                stringObj.setString_instruction_remove_mask("Mohon lepaskan masker");
+                stringObj.setString_instruction_remove_sunglasses("Mohon lepaskan kacamata");
+                stringObj.setString_follow_instruction("Posisikan wajah ke frame");
             }
             catch(JSONException e){
                 callbackContext.error("Error encountered: " + e.getMessage());
@@ -93,7 +93,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             this.callback.sendPluginResult(pluginResult);
             try{
                 JSONObject jsonResult = new JSONObject();
-                jsonResult.put("version", "1.3.4");    
+                jsonResult.put("version", "1.3.3");    
                 this.callback.success(jsonResult);
             }catch(JSONException e){
                 this.callback.error("Error encountered: " + e.getMessage());
