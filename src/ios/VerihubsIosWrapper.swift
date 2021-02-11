@@ -43,7 +43,7 @@ public class VerihubsIosWrapper :  CDVPlugin , VerihubsDelegate{
     self.attributes_check = command.argument(at: 3) as! [Bool]
     self.custom_instructions = command.argument(at: 2) as! [Int32]
     self.commandId = command.callbackId
-    string_parameters = ["see_straight":"Lihat depan","close_eyes":"Close both your eyes","open_mouth":"Open your mouth","tilt_right":"Tilt to the right", "tilt_left":"Tilt to the left","see_below":"See below", "see_above":"See above", "see_right":"See your right", "see_left":"See your left","follow_instruction":"Ikuti arahan","remove_mask":"Lepaskan masker","remove_sunglasses":"Lepaskan kacamata"]
+    string_parameters = ["see_straight":"Arahkan wajah ke depan","close_eyes":"Tutup mata selama 2 detik","open_mouth":"Buka mulut","tilt_right":"Miringkan kepala ke kanan", "tilt_left":"Miringkan kepala ke kiri","see_below":"Tundukkan kepala ke bawah", "see_above":"Arahkan wajah ke atas", "see_right":"Tengok ke kanan", "see_left":"Tengok ke kiri","follow_instruction":"Posisikan wajah ke frame","remove_mask":"Mohon lepaskan masker","remove_sunglasses":"Mohon lepaskan kacamata"]
 
     verisdk.verifyLiveness(viewController:self.viewController, delegate:self, instruction_count: self.instruction_count, custom_instructions: self.custom_instructions, attributes_check: self.attributes_check, timeout: self.timeout, string_parameters: self.string_parameters)
 
